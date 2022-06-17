@@ -1,0 +1,84 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-container {
+
+    display: inline-flex;
+    height: 512px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 16px;
+    padding: 12px;
+    border-radius: 2px;
+    background-color: rgb(230, 230, 230);
+
+}
+
+#paint-grid,
+#erase-grid {
+
+    height: 32px;
+    margin-bottom: 16px;
+
+}
+
+.input-group {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    user-select: none;
+
+}
+
+#erase-checkbox,
+#rainbow-checkbox {
+
+    height: 32px;
+    width: 32px;
+
+}
+
+#color-selector,
+#size-selector {
+
+    height: 32px;
+    width: 96px;
+
+}
+
+.grid-container {
+
+    border: solid 2px black;
+
+}
+
+.grid {
+
+    display: grid;
+    height: 512px;
+    width: 512px;
+
+}
+
+.grid-cell {
+
+    background-color: white;
+    cursor: crosshair;
+
+}

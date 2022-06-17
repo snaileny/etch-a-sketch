@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="module" src="./js/index.js"></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div class="input-container">
+        <div class="input-group">
+            <label for="erase">Eraser</label>
+            <input type="checkbox" id="erase-checkbox">
+        </div>
+        <div class="input-group">
+            <label for="rainbow">Rainbow</label>
+            <input type="checkbox" id="rainbow-checkbox">
+        </div>
+        <div class="input-group">
+            <label for="color-selector">Color Select</label>
+            <input type="color" id="color-selector">
+        </div>
+        <div class="input-group">
+            <label for="size-selector">Cell Size</label>
+            <select id="size-selector">
+                <option value="8">8</option>
+                <option value="16" selected>16</option>
+                <option value="32">32</option>
+                <option value="64">64</option>
+            </select>
+        </div>
+        <button type="button" id="paint-grid">Fill Grid</button>
+        <button type="button" id="erase-grid">Erase Grid</button>
+    </div>
+    <div class="grid-container">
+        
+    </div>
+</body>
+</html>
